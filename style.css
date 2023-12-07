@@ -275,6 +275,9 @@ section {
 .about-details-container {
   display: flex;
 }
+.text-container{
+  text-align: justify;
+}
 
 .about-pic {
   border-radius: 2rem;
@@ -309,7 +312,7 @@ section {
 
 /* EXPERIENCE SECTION */
 
-#experience {
+#skills {
   position: relative;
 }
 
