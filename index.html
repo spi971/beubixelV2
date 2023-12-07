@@ -2,11 +2,11 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <!-- <link rel="icon" type="image/svg+xml" href="/vite.svg" /> -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sandy PIERRE</title>
   </head>
   <body>
+    <!-- NAV -->
     <nav id="desktop-nav">
       <div class="logo">Sandy PIERRE</div>
       <div>
@@ -14,12 +14,13 @@
           <li><a href="#about">About</a></li>
           <li><a href="#skills">Skills</a></li>
           <li><a href="#projects">Projects</a></li>
-          <li><a href="#">Blog</a></li>
           <li><a href="#contact">Contact</a></li>
+          <li><a href="https://beubixel.wordpress.com/" target="_blank">Blog</a></li>
         </ul>
       </div>
     </nav>
 
+    <!-- MOBILE NAV -->
     <nav id="mobile-nav">
       <div class="logo">Sandy PIERRE</div>
       <div class="mobile-menu">
@@ -30,16 +31,18 @@
         </div>
         <div class="mobile-links">
           <li><a href="#about" onclick="toggleMenu()">About</a></li>
-          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
           <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
           <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+          <li><a href="https://beubixel.wordpress.com/" target="_blank">Blog</a></li>
         </div>
       </div>
     </nav>
 
+    <!-- PROFILE/HERO -->
     <section id="profile">
       <div class="section__pic-container">
-        <img src="./public/assets/profile-pic.png" alt="Sandy Pierre picture" />
+        <img src="./public/assets/about2.png" alt="Sandy Pierre picture" />
       </div>
       <div class="section__text">
         <!-- <p class="section__text__p1">Hello, I'm</p> -->
@@ -73,13 +76,14 @@
       </div>
     </section>
 
+    <!-- ABOUT -->
     <section id="about">
       <p class="section__text__p1">Get To Know More</p>
       <h1 class="title">About Me</h1>
       <div class="section-container">
         <div class="section__pic-container">
           <img
-            src="./assets/about2.jpg"
+            src="./public/assets/profile-pic.png"
             alt="Profile picture"
             class="about-pic"
           />
@@ -118,10 +122,11 @@
               I come from a different background since my last studies focused
               on the field of international law and economic strategy.
               <br />
-              I'm' self-taught developer, seduced by the software
-              craftsmanship philosophy.
+              I'm' self-taught developer, seduced by the software craftsmanship
+              philosophy.
               <br />
-              I launched myself as a freelancer, worked in a IT services company, on larges et various projects.
+              I launched myself as a freelancer, worked in a IT services
+              company, on larges et various projects.
               <br />
               Today I am relaunching myself as an independent.
             </p>
@@ -136,6 +141,7 @@
       />
     </section>
 
+    <!-- SKILLS -->
     <section id="skills">
       <p class="section__text__p1">Explore Some Of My</p>
       <h1 class="title">Skills</h1>
@@ -358,6 +364,156 @@
         onclick="location.href='./#projects'"
       />
     </section>
+
+    <!-- PROJET -->
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-1.png"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Project One</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-2.png"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Project Two</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-3.png"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Project Three</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p>
+            <a href="mailto:sandypierre@protonmail.com"
+              >sandypierre@protonmail.com</a
+            >
+          </p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p>
+            <a
+              href="https://www.linkedin.com/in/sandy-pierre-041a44179"
+              target="_blank"
+              >LinkedIn</a
+            >
+          </p>
+          <img
+            src="./assets/github.png"
+            alt="Github icon"
+            class="icon contact-icon"
+          />
+          <p>
+            <a href="https://github.com/spi971" target="_blank">Github</a>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="https://beubixel.wordpress.com/" target="_blank">Blog</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>
+        Copyright &#169; 2023 Sandy PIERRE. All Rights Reserved to
+        <a href="https://www.youtube.com/@howtobecomeadeveloper" target="_blank"
+          >@howtobecomeadeveloper</a
+        >.
+      </p>
+    </footer>
     <script type="module" src="main.js"></script>
   </body>
 </html>
